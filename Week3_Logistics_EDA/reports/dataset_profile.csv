@@ -1,0 +1,46 @@
+column,dtype,non_missing,missing,unique_values
+Type,str,180519,0,4
+Days for shipping (real),int64,180519,0,7
+Days for shipment (scheduled),int64,180519,0,4
+Benefit per order,float64,180519,0,21998
+Sales per customer,float64,180519,0,2927
+Delivery Status,str,180519,0,4
+Late_delivery_risk,int64,180519,0,2
+Category Id,int64,180519,0,51
+Category Name,str,180519,0,50
+Customer City,str,180519,0,563
+Customer Country,str,180519,0,2
+Customer Id,int64,180519,0,20652
+Customer Segment,str,180519,0,3
+Customer State,str,180519,0,46
+Department Id,int64,180519,0,11
+Department Name,str,180519,0,11
+Latitude,float64,180519,0,11250
+Longitude,float64,180519,0,4487
+Market,str,180519,0,5
+Order City,str,180519,0,3597
+Order Country,str,180519,0,164
+Order Customer Id,int64,180519,0,20652
+order date (DateOrders),datetime64[us],180519,0,65752
+Order Id,int64,180519,0,65752
+Order Item Cardprod Id,int64,180519,0,118
+Order Item Discount,float64,180519,0,1017
+Order Item Discount Rate,float64,180519,0,18
+Order Item Id,int64,180519,0,180519
+Order Item Product Price,float64,180519,0,75
+Order Item Profit Ratio,float64,180519,0,162
+Order Item Quantity,int64,180519,0,5
+Sales,float64,180519,0,193
+Order Item Total,float64,180519,0,2927
+Order Profit Per Order,float64,180519,0,21998
+Order Region,str,180519,0,23
+Order State,str,180519,0,1089
+Order Status,str,180519,0,9
+Product Card Id,int64,180519,0,118
+Product Category Id,int64,180519,0,51
+Product Name,str,180519,0,118
+Product Price,float64,180519,0,75
+shipping date (DateOrders),datetime64[us],180519,0,63701
+Shipping Mode,str,180519,0,4
+Delivery Delay,int64,180519,0,7
+Is Delayed,int64,180519,0,2

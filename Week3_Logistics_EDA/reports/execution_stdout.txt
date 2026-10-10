@@ -1,0 +1,78 @@
+{
+  "input_file": "DataCo_Logistics_Cleaned.csv",
+  "rows": 180519,
+  "columns": 45,
+  "missing_cells": 0,
+  "exact_duplicate_rows": 0,
+  "date_columns": {
+    "order_date": "order date (DateOrders)",
+    "shipping_date": "shipping date (DateOrders)"
+  },
+  "business_columns": {
+    "delivery_status": "Delivery Status",
+    "actual_days": "Days for shipping (real)",
+    "scheduled_days": "Days for shipment (scheduled)",
+    "delay": "Delivery Delay",
+    "sales": "Sales",
+    "profit_or_benefit": "Benefit per order",
+    "cost_or_price": "Order Item Product Price",
+    "quantity": "Order Item Quantity",
+    "shipping_mode": "Shipping Mode",
+    "region": "Order Region",
+    "category": "Category Name",
+    "order_id": "Order Id",
+    "delay_flag": "Is Delayed",
+    "late_risk_flag": "Late_delivery_risk"
+  },
+  "figures_created": [
+    "01_delivery_status_distribution.png",
+    "02_shipping_time_distributions.png",
+    "03_average_shipping_time.png",
+    "04_shipping_mode_performance.png",
+    "05_monthly_order_trend.png",
+    "06_correlation_heatmap.png",
+    "07_quantity_vs_sales.png",
+    "08_top_regions.png",
+    "09_category_record_counts.png",
+    "10_delay_flag_by_shipping_mode.png"
+  ],
+  "actual_shipping_days": {
+    "mean": 3.4976539865609713,
+    "median": 3.0,
+    "std": 1.6237218283741632,
+    "min": 0.0,
+    "max": 6.0
+  },
+  "scheduled_shipping_days": {
+    "mean": 2.931846509231715,
+    "median": 4.0,
+    "std": 1.374449280007978,
+    "min": 0.0,
+    "max": 4.0
+  },
+  "mean_shipping_time_gap_days": 0.5658074773292562,
+  "records_actual_exceeds_schedule": 103400,
+  "records_actual_at_or_below_schedule": 77119,
+  "delivery_status_counts": {
+    "Late delivery": 98977,
+    "Advance shipping": 41592,
+    "Shipping on time": 32196,
+    "Shipping canceled": 7754
+  },
+  "mean_actual_days_by_shipping_mode": {
+    "Same Day": 0.4782787306151792,
+    "First Class": 2.0,
+    "Second Class": 3.9908280327124035,
+    "Standard Class": 3.995907268542579
+  },
+  "sales": {
+    "mean": 203.77209608617287,
+    "median": 199.9199982,
+    "sum": 36784735.01337984
+  },
+  "quantity": {
+    "mean": 2.127637533999191,
+    "median": 1.0,
+    "sum": 384079.0
+  }
+}
